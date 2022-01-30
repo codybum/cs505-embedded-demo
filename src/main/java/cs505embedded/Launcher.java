@@ -43,12 +43,17 @@ public class Launcher {
 
 
         if(args.length == 0) {
-            System.out.println("Usage: java -jar cs505-embedded-demo-1.0-SNAPSHOT.jar [test mode] [storage mode]");
+            System.out.println("Usage: java -jar cs505-embedded-demo-1.0-SNAPSHOT.jar [test mode] [storage mode] [insert count]");
+            System.out.println(" ");
             System.out.println("[test mode]");
             System.out.println("0=start nothing");
             System.out.println("2=start DB with local query load");
             System.out.println("3=start web server and database server");
             System.out.println("4=start web server and database server, load on web interface");
+            System.out.println(" ");
+            System.out.println("[storage mode]");
+            System.out.println("0=in-memory");
+            System.out.println("1=on-disk");
             System.exit(0);
         } else {
             test_mode = Integer.valueOf(args[0]);
