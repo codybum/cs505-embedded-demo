@@ -57,7 +57,7 @@ public class Launcher {
             System.exit(0);
         } else {
             test_mode = Integer.valueOf(args[0]);
-            if(args.length == 2) {
+            if(args.length > 1) {
                 storage_mode = Integer.valueOf(args[1]);
             }
 
