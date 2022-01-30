@@ -1,0 +1,4 @@
+# Default ignored files
+.idea
+# Project exclude paths
+/target/
