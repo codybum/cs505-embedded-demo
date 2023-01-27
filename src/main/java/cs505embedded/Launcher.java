@@ -54,6 +54,7 @@ public class Launcher {
             System.out.println("[storage mode]");
             System.out.println("0=in-memory");
             System.out.println("1=on-disk");
+            System.out.println("[number of records]");
             System.exit(0);
         } else {
             test_mode = Integer.valueOf(args[0]);
